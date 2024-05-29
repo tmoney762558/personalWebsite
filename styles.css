@@ -1,27 +1,24 @@
 body {
     background-color: white;
 }
+.navBar {
+    display: flex;
+}
 .githubIcon {
-    float: right;
-    margin-right: 10px;
+
 }
 .mailIcon {
-    float: right;
-    margin-right: 13px;
+
 }
-.lightButton {
-    float: right;
-    margin-right: 5px;
-}
-.darkButton {
-    float: right;
+.lightDark {
+
 }
 .flexbox-container {
     display: flex;
 }
 .aboutText {
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 1.5em;
     border: 5px solid black;
     border-radius: 5px;
@@ -40,7 +37,14 @@ body {
     height: 100px;
     width: 500px;
     height: 400px;
+    background-color: whitesmoke;
 }
 .projectsText {
-
+    text-align: center;
+    border: 10px solid wheat;
+    background-color: wheat;
+    border-radius: 15px;
+}
+.welcome {
+    font-size: 2em;
 }
