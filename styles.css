@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+.githubIcon {
+    float: right;
+    margin-right: 10px;
+}
+.mailIcon {
+    float: right;
+    margin-right: 13px;
+}
+.lightButton {
+    float: right;
+    margin-right: 5px;
+}
+.darkButton {
+    float: right;
+}
+.flexbox-container {
+    display: flex;
+}
+.aboutText {
+    margin-top: 15%;
+    margin-left: 20%;
+    font-size: 1.5em;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 500px;
+}
+.projects {
+    margin-top: 15%;
+    margin-left: 200px;
+    font-size: 1.5em;    
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 0px;
+    height: 100px;
+    width: 500px;
+    height: 400px;
+}
+.projectsText {
+
+}
