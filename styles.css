@@ -1,50 +1,60 @@
 body {
-    background-color: white;
+  background-color: white;
 }
-.navBar {
-    display: flex;
+.nav.bar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
-.githubIcon {
-
+.navBar .nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
 }
-.mailIcon {
-
-}
-.lightDark {
-
+.navBar .nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
 }
 .flexbox-container {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
 }
 .aboutText {
-    margin-top: 15%;
-    margin-left: 10%;
-    font-size: 1.5em;
-    border: 5px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    height: 300px;
-    width: 500px;
+  font-size: 1.5em;
+  border: 5px solid rgb(237, 235, 235);
+  border-radius: 5px;
+  padding: 5px;
+  height: 300px;
+  width: 500px;
+  background-color: whitesmoke;
 }
 .projects {
-    margin-top: 15%;
-    margin-left: 200px;
-    font-size: 1.5em;    
-    border: 5px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    padding-top: 0px;
-    height: 100px;
-    width: 500px;
-    height: 400px;
-    background-color: whitesmoke;
+  margin-left: 200px;
+  font-size: 1.5em;
+  border: 5px solid rgb(237, 235, 235);
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 0px;
+  height: 100px;
+  width: 500px;
+  height: 400px;
+  background-color: whitesmoke;
 }
 .projectsText {
-    text-align: center;
-    border: 10px solid wheat;
-    background-color: wheat;
-    border-radius: 15px;
+  text-align: center;
+  border: 10px solid wheat;
+  background-color: wheat;
+  border-radius: 15px;
 }
 .welcome {
-    font-size: 2em;
+  font-size: 5em;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 100px;
 }
