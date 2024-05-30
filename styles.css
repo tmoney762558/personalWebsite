@@ -1,21 +1,19 @@
 body {
   background-color: white;
 }
-.nav.bar {
+.navBar {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding: 1rem;
 }
-.navBar .nav-right {
+.nav-left {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   padding: 1rem;
   gap: 10px;
 }
-.navBar .nav-left {
+.nav-right {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   padding: 1rem;
   gap: 10px;
