@@ -21,7 +21,7 @@ body {
 .flexbox-container {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 .aboutText {
   font-size: 1.5em;
@@ -49,11 +49,19 @@ body {
   text-align: center;
   border-radius: 10px;
   margin: auto;
+  display: block;
+}
+.projectsText:hover {
+  background-color: gray;
+}
+.projects a:nth-of-type(odd) {
+  background-color: white;
 }
 .welcome {
   font-size: 5em;
   font-weight: bold;
   margin-left: 200px;
   margin-top: 100px;
-  width:350px;
+  margin-bottom: 50px;
+  width: 350px;
 }
