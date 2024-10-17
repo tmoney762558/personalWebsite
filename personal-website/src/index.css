@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --site-bg: rgb(3, 3, 29);
+  --site-text1: rgb(255, 255, 255);
+  --site-text2: rgb(121, 219, 255);
+  --site-text3: rgba(0, 171, 251, 0.825);
+}
+.section__padding {
+  padding: 1rem 3rem;
+}
+.primary__text {
+  color: var(--site-text1);
+}
+.secondary__text {
+  color: var(--site-text3);
+}
+.nav-header__bg {
+  background: rgb(12, 92, 117);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(12, 92, 117, 1) 0%,
+    rgba(4, 14, 17, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(12, 92, 117, 1) 0%,
+    rgba(4, 14, 17, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(12, 92, 117, 1) 0%,
+    rgba(4, 14, 17, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c5c75",endColorstr="#040e11",GradientType=1);
+}
+
+.emph__gradient {
+  background: rgb(255, 205, 0);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(255, 205, 0, 1) 0%,
+    rgba(190, 103, 22, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(255, 205, 0, 1) 0%,
+    rgba(190, 103, 22, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(255, 205, 0, 1) 0%,
+    rgba(190, 103, 22, 1) 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.scale-down-center {
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+.scale-up-top {
+  -webkit-animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@-webkit-keyframes scale-up-top {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+}
+@keyframes scale-up-top {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+}
