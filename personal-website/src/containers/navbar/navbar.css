@@ -3,6 +3,7 @@
 
   position: sticky;
   top: 0px;
+  /* background-color: #0c5c75; When the navbar reaches the top set it to this color */
 }
 .navbar nav {
   display: flex;

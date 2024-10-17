@@ -11,6 +11,7 @@ div .header {
 .header__content-text h2 {
   font-size: 3.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 1000px;
 }
 .header__content-text h3 {
   margin-top: 2rem;

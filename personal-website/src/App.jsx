@@ -7,11 +7,11 @@ const App = () => {
       <div className="nav-header__bg">
         <Navbar></Navbar>
         <Header></Header>
+        <About></About>
+        <Skills></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
       </div>
-      <About></About>
-      <Skills></Skills>
-      <Projects></Projects>
-      <Contact></Contact>
     </div>
   );
 };

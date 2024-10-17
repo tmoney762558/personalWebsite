@@ -5,11 +5,11 @@ import headerImage2 from "../../assets/headerImage2.jpg";
 
 const Header = () => {
   return (
-    <div className="header section__padding">
+    <div className="header section__padding nav-header__bg" id="home">
       <div className="header__content">
         <div className="header__content-text">
           <h2 className="primary__text">
-            Hello, I&apos;m Tyler, and I&apos;m a
+            Hi, I&apos;m Tyler, and I&apos;m a
             <span className="emph__gradient"> Front-End Web Developer.</span>
           </h2>
           <h3 className="secondary__text">

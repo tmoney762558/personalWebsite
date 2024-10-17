@@ -3,10 +3,10 @@
   padding: 0;
 }
 :root {
-  --site-bg: rgb(3, 3, 29);
+  --site-bg: #03031d;
   --site-text1: rgb(255, 255, 255);
   --site-text2: rgb(121, 219, 255);
-  --site-text3: rgba(0, 171, 251, 0.825);
+  --site-text3: rgba(156, 206, 237, 0.467);
 }
 .section__padding {
   padding: 1rem 3rem;
@@ -22,19 +22,19 @@
   background: -moz-linear-gradient(
     180deg,
     rgba(12, 92, 117, 1) 0%,
-    rgba(4, 14, 17, 1) 100%
+    rgba(3, 3, 29, 1) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
     rgba(12, 92, 117, 1) 0%,
-    rgba(4, 14, 17, 1) 100%
+    rgba(3, 3, 29, 1) 100%
   );
   background: linear-gradient(
     180deg,
     rgba(12, 92, 117, 1) 0%,
-    rgba(4, 14, 17, 1) 100%
+    rgba(3, 3, 29, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c5c75",endColorstr="#040e11",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c5c75",endColorstr="#03031d",GradientType=1);
 }
 
 .emph__gradient {
