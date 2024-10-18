@@ -9,7 +9,7 @@
   --site-text3: rgba(156, 206, 237, 0.467);
 }
 .section__padding {
-  padding: 1rem 3rem;
+  padding: 1rem 7rem;
 }
 .primary__text {
   color: var(--site-text1);

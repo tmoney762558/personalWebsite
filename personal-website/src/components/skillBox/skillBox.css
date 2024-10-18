@@ -1,0 +1,67 @@
+.skillBox {
+  padding: 2rem 10rem 7rem 2rem;
+  width: 15rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1); /* Light gray with transparency */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly darker border */
+  color: white; /* Text color to contrast the dark background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+}
+.skillBox:hover {
+  background-color: rgba(173, 216, 230, 0.2);
+  box-shadow: 0px 8px 25px 2px rgba(173, 216, 230, 0.4);
+}
+.skillBox__header {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+
+  margin-bottom: 1rem;
+}
+.skillBox__header h3,
+.skillBox__content p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.skillBox__header h3 {
+  font-size: 1.5rem;
+}
+.skillBox__content p {
+  font-size: 1.5rem;
+}
+@media (max-width: 990px) {
+  .skillBox {
+    padding: 2rem 3rem 2.3rem 2rem;
+  }
+}
+@media (max-width: 720px) {
+  .skillBox {
+    padding: 2rem 0.2rem 2.3rem 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .skillBox {
+    width: 10rem;
+    padding: 2rem 1rem 2.3rem 1rem;
+  }
+  .skillBox__header h3 {
+    font-size: 1rem;
+  }
+  .skillBox__content p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 460px) {
+  .skillBox {
+    width: 7rem;
+    padding: 2rem 1rem 2.3rem 1rem;
+  }
+  .skillBox__header h3 {
+    font-size: 1rem;
+  }
+  .skillBox__content p {
+    font-size: 1rem;
+  }
+}
