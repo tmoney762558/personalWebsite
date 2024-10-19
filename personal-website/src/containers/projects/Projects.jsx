@@ -1,8 +1,13 @@
 import React from 'react'
+import { ProjectBox } from "../../components";
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className="projects">
+      <div className="projects__container">
+        <ProjectBox></ProjectBox>
+      </div>
+    </div>
   )
 }
 
